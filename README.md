@@ -175,6 +175,17 @@ To run the tests, use the following command:
 go test ./...
 ```
 
+## Example Implementation
+
+To see a complete example of how to use the Loki Client, refer to the `example/main.go` file in this repository. This example demonstrates how to configure the client, send logs, and handle errors.
+
+To run the example, navigate to the `example` directory and execute:
+
+```sh
+cd example
+go run main.go
+```
+
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
